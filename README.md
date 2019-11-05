@@ -98,15 +98,18 @@ roslaunch launch/site.launch
 5. Confirm that traffic light detection works on real life images
 
 ### Simulator operation
-<img src="./imgs/simulator1.gif" alt="Vehicle Start" width="1080" height="720">
+<img src="./imgs/simulator1.gif" alt="Vehicle Start" width="1080" height="608">
+<img src="./imgs/simulator11.gif" alt="Vehicle Start" width="1080" height="608">
 
 The car will start to accelerate gradually from static state
 
-<img src="./imgs/simulator2.gif" alt="Deceleration stop" width="1080" height="720">
+
+<img src="./imgs/simulator2.gif" alt="Deceleration stop" width="1080" height="608">
  
 When the tl_detector detects a red light, the vehicle will plan to stop before the stop line
  
-<img src="./imgs/simulator3.gif" alt="Vehicle Restart" width="1080" height="720">
+
+<img src="./imgs/simulator3.gif" alt="Vehicle Restart" width="1080" height="608">
 
 When the detector does not detect a red light, the vehicle will re accelerate to start
 
